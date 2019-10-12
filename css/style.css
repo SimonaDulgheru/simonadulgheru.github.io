@@ -1,4 +1,3 @@
-
 *{
     box-sizing:border-box;
 }
@@ -9,6 +8,11 @@ body{
     padding: 0;
 }
 
+.body{
+
+    background-image: url(../images/Grey-Texture-Background-and-Wallpaper-16.jpg);
+
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -58,51 +62,18 @@ li a:hover{
     color: #4aaaa5;
 }
 .container{
-    background: url(../images/Grey-Texture-Background.jpg);
+    background-image: url(../images/Grey-Texture-Background-and-Wallpaper-16.jpg);
+    padding: 10px; 
 }
    
-.footer{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#666666;
-    border-top: 5px solid rgb(2, 179, 170);
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 20px;
-}
-   
-p.footer{
-    text-align: center;
-    padding: 20px;
-    font-size: 10px;
-    color: white;
-}
-   
-.container{
-    padding: 10px;
-}
 
 .row {
     background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* flex-wrap: wrap; */
-     margin: 20px -10px 20px -10px;
-    /* background:white; */
+    margin: 20px -10px 20px -10px;
 }  
-
-.column img{
-    display: flex;
-    align-items: center;
-    margin: 5px 10px 5px 10px;
-}
-.column {
-    max-width: 100%;
-    /* margin: 0 10px 10px 10px; */
-    padding: 15px;
-}
 
 .column header{
     height: 70px;
@@ -111,16 +82,26 @@ p.footer{
 }
 
 h2{
-     /* margin-left: 20px; */
     margin-bottom: 0px;
     color:#4aaaa5;
     text-align: center;
     height: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* border-bottom: 1px solid #cccccc; */
 }
+
+.column-img{
+    display: flex;
+    align-items: center;
+    margin: 5px 10px 5px 10px;
+}
+
+.column {
+    max-width: 100%;
+    padding: 15px;  
+}
+
 .column text{
-    margin: 0 10px 20px 10px;
+    margin: 0 10px 20px 0px;
     width: 100%;
 }
 
@@ -129,6 +110,7 @@ p{
     color:#777777;
     text-align: justify;
     max-width: 100%;
+   
 }
 
 form{
@@ -139,9 +121,6 @@ form{
 .form-name{
     display: flex;
     flex-direction: column;
-    /* margin: 0px 20px 0px 20px; */
-    /* width: 910px; */
-    /* padding: 5px; */
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin-top: 20px;
@@ -166,8 +145,6 @@ form{
 .form-email{
     display: flex;
     flex-direction: column;
-        /* margin: 0px 20px 0px 20px; */
-        /* width: 910px; */
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -192,9 +169,6 @@ textarea{
 .text{
     display: flex;
     flex-direction: column;
-        /* margin: 0px 20px 0px 20px; */
-        /* width: 910px; */
-    
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -205,30 +179,25 @@ button {
     padding: 10px;
     background-color: #4aaaa5; 
     color: #ffffff;
-    margin: 10px 0px 20px 0px; 
-    /* margin-bottom: 20px;
-    margin-top: 10px; */
+    margin: 5px 0px 50px 0px; 
     font-family: Arial, Helvetica, sans-serif;
-}  
+} 
 
 .main{
     display:flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-    margin-bottom: 30px;
-    
+    margin-bottom: 60px;
     width: 100%;
-    /* margin-left: 20px;
-    margin-top: 30px; */
 }
 
 .portfolio-images-1{
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
-    width: 250px;
-}
+    width: 250px; 
+} 
 
 .portfolio-images-2{
     display: flex;
@@ -237,60 +206,189 @@ button {
     width: 250px;
 }
 
+footer{
+    background-color:#666666;
+    border-top: 5px solid rgb(2, 179, 170);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+}
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: white; 
+}  
+
+
+
+
+
    
    @media(min-width: 600px) {
+
+        body{
+            background-image: url(../images/Grey-Texture-Background-and-Wallpaper-16.jpg);
+            background-size:cover;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+           
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            min-width: 100%;
+            height: 70px;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            bottom: 20px;
+            border-bottom: 1px solid  #cccccc;
+        }
+
+        .logo{
+            margin-left: 210px; 
+            height:70px;
+        }
+
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background: #4aaaa5;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+        } 
+
+        .nav{
+            margin-right: 200px;
+        }
+
+        ul li{
+            display: flex;
+            justify-content: space-around;
+            margin-right: 10px;
+            font-size: 20px;
+        }
    
-       .column--desktop-1 {
-           width: calc(8.3333333333% - 20px);
-           background:url(../images/Grey-Texture-Background.jpg)
+       .row{
+            width: calc(75% - 20px);
+            margin: 20px 100px 100px 200px;
        }
+        
+       .column header{
+            box-sizing: border-box;
+            background-color: white;
+            margin-bottom: 10px;
+            border-bottom: 1.5px solid #dddddd;
+            padding: 10px;
+        }
+       
+       h2{
+            font-size: 30px;
+            margin: 10px 0px 5px 10px;
+        }
+
+
+        .column-img{
+            height: 250px;
+            padding: 10px;
+            margin-top: 50px;
+        
+        }
+    
+        .column text{
+            padding-left: 20px;
+
+        }
+
+        p{
+            margin-bottom: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #777777;
+            margin-top: 5px;
+            text-align: justify;
+            padding: 10px;
+        }
+
+        .main {
+            display:flex;
+            flex-wrap: wrap; 
+            height: 550px;
+        }
+    
+        .desktop-1-portfolio-images-1{
+            margin-top: 40px;
+            width: 250px;
+            align-items: center;
+        }
+    
+        .desktop-2-portfolio-images-2{
+            margin-left: 35px; 
+            margin-top: 50px; 
+            width: 250px;
+            margin-bottom: 80px;
+            align-items: center; 
+        } 
+
+        form{
+            width:100%;
+            padding: 10px;
+        } 
+
+        .form-control{
+            margin:10px 20px 10px 20px;
+            width: 1000px;
+        }
+
+        label{
+            margin-left: 20px;
+        } 
+
+        button{
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+        p.paragraph{
+            text-align: center;
+            padding: 5px;
+           
+
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
-       .column--desktop-2 {
-           width: calc(16.6666666667% - 20px);
-       }
    
-       .column--desktop-3 {
-           width: calc(25% - 20px);
-       }
    
-       .column--desktop-4 {
-           width: calc(33.3333333333% - 20px);
-       }
    
-       .column--desktop-5 {
-           width: calc(41.6666666667% - 20px);
-       }
    
-       .column--desktop-6 {
-           background: #000;
-           height: 200px;
-           width: calc(50% - 20px);
-       }
    
-       .column--desktop-7 {
-           width: calc(58.3333333333% - 20px);
-       }
    
-       .column--desktop-8 {
-           width: calc(66.6666666667% - 20px);
-       }
    
-       .column--desktop-9 {
-           width: calc(75% - 20px);
-       }
    
-       .column--desktop-10 {
-           width: calc(83.3333333333% - 20px);
-       }
    
-       .column--desktop-11 {
-           width: calc(91.6666666667% - 20px);
-       }
    
-       .column--desktop-12 {
-           width: calc(100% - 20px);
-       }
-   }
    
    
    
@@ -300,242 +398,4 @@ button {
    
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   /* *{
-       margin:0;
-   }
-   
-   body{
-       background-image: url(../images/Grey-Texture-Background-and-Wallpaper-16.jpg);
-       background-size:cover;
-       height: 100%;
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-       margin-bottom: -50px;
-   }
-   
-   .container-1{
-       display: flex;
-       background-color: white;
-       height: 100px;
-       border-bottom: 2px solid #cccccc;
-       justify-content: space-between;
-   }
-   
-   .header{
-       background-color:#4aaaa5;
-       margin-left: 270px;
-       width: 220px;
-       text-align: center;
-   }
-   
-   h1{
-       font-family: Georgia, 'Times New Roman', Times, serif;
-       color: white;
-       text-align: center;
-       margin-top: 10px;
-       margin-bottom: 10px;
-   }
-   
-   ul{ 
-       display: flex;
-       background-color: white;
-       padding: 20px; 
-       margin-right: 260px;
-       list-style-type: none;
-   }
-   
-   li{
-       text-align: center;
-       color: #777777;
-       padding: 15px;
-   }
-   
-   li a{
-       font-family: Arial, Helvetica, sans-serif;
-       color: #777777;
-       text-decoration: none;
-   }
-   
-   li a:hover{
-       color: #4aaaa5;
-   }
-   .container-2{
-       width: 960px;
-       min-height: 100%;
-       background-color: white;
-       box-sizing: border-box;
-       margin-left: 270px;
-       margin-top: 60px;
-       margin-bottom: 200px; 
-       border-bottom: 2px solid #cccccc;
-   } 
-   
-   .heading{
-       box-sizing: border-box;
-       background-color: white;
-       margin-bottom: 30px;
-       width: 910px;
-       border-bottom: 1.5px solid #dddddd;
-       margin-left: 15px;
-       padding: 10px;
-   }
-   
-   .main{ 
-       background-color: white;
-       box-sizing: border-box;
-       width: 960px;
-       margin-top: 50px;
-   } 
-   
-   
-   
-   h2{
-       color:#4aaaa5;
-       font-family:Georgia, 'Times New Roman', Times, serif;
-       font-weight: bold;
-       font-size: 30px;
-       padding: 10px;
-       margin-right: 25px;
-       margin-top: 25px;
-   }
-   
-   p{
-       margin-right: 35px;
-       align-items: left;
-       font-family: Arial, Helvetica, sans-serif;
-       color: #777777;
-       margin-top: 5px;
-       text-align: justify;
-       margin-left: 35px;
-   }
-   
-   img{
-       height: 200px;
-       margin-left: 35px;
-       margin-right: 25px;
-       margin-bottom: 3px;
-       float:left;
-   }
-   
-   .form-name{
-       margin-left: 20px;
-       width: 910px;
-       padding: 10px;
-       font-family: Arial, Helvetica, sans-serif;
-       color: #777777;
-   }
-   
-   #contact-form{
-       margin-top: 5px;
-       margin-left: 20px;
-       padding: 10px;
-   }
-   
-   .form-control{
-       width: 890px;
-   }
-   
-   .form-email{
-       margin-left: 10px;
-       padding: 20px;
-       margin-right: 25px;
-       font-family: Arial, Helvetica, sans-serif;
-       color: #777777;
-   }
-   
-   #contact-email{
-       margin-top: 5px;
-   }
-   
-   input,textarea{
-       font-family: Arial, Helvetica, sans-serif;
-   } 
-   
-   
-   textarea{
-       width: 890px;
-       height: 20em;
-       resize: vertical;
-       margin-right: 25px;
-    } 
-   
-   .text{
-       font-family: Arial, Helvetica, sans-serif;
-       color: #777777;
-       margin-left: 20px;
-       padding: 10px;
-   }
-   
-   button {
-       text-align: center;
-       border: 0px;
-       padding: 10px;
-       background-color: #4aaaa5; 
-       color: #ffffff;
-       margin-left: 30px; 
-       margin-bottom: 20px;
-       font-family: Arial, Helvetica, sans-serif;
-   }
-   
-   .main-2{
-       display:flex;
-       flex-wrap: wrap;
-   }
-   
-   .portfolio-images-1{
-       margin-top: 10px;
-       width: 250px;
-   }
-   
-   .portfolio-images-2{
-       margin-left: 35px; 
-       margin-top: 50px; 
-       width: 250px;
-       margin-bottom: 80px;
-   } 
-   
-   footer{
-       background-color:#666666;
-       height: 50px;
-       border-top: 7px solid rgb(2, 179, 170);
-       margin-top: -50px;
-       bottom: 0px;
-   }
-   
-   p.footer{
-       font-family: Arial, Helvetica, sans-serif;
-       text-align: center;
-       color: white;
-       font-size: 12px;
-       margin-top: 15px;
-   }
-    */
    
