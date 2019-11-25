@@ -10,7 +10,7 @@ body{
 
 .body{
 
-    background-image: url(../images/Grey-Texture-Background-and-Wallpaper-16.jpg);
+    background-image: url(../images/binary-code-abstract-lu.jpg);
 
 }
 .header{
@@ -62,7 +62,7 @@ li a:hover{
     color: #4aaaa5;
 }
 .container{
-    background-image: url(../images/Grey-Texture-Background-and-Wallpaper-16.jpg);
+    background-image: url(../images/binary-code-abstract-lu.jpg);
     padding: 10px; 
 }
    
@@ -233,7 +233,7 @@ footer{
    @media(min-width: 600px) {
 
         body{
-            background-image: url(../images/Grey-Texture-Background-and-Wallpaper-16.jpg);
+            background-image: url(../images/binary-code-abstract-lu.jpg);
             background-size:cover;
             height: 100%;
             background-repeat: no-repeat;
