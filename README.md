@@ -14,7 +14,7 @@ About Updated
 ![image](https://user-images.githubusercontent.com/48987979/69660622-9af3a480-1078-11ea-8244-fe32ce8c4f65.png)
 
 Portfolio Page updated with Resume and Projects
-![image](https://user-images.githubusercontent.com/48987979/69660695-c080ae00-1078-11ea-82df-7bbd37768965.png)
+![image](https://user-images.githubusercontent.com/48987979/69660922-43a20400-1079-11ea-9811-88504e5c803b.png)
 
 
 
