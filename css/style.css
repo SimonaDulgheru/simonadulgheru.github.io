@@ -345,7 +345,7 @@ footer{
 
 
 
-
+/* Mobile Version */
 
     
    @media(min-width: 599px) {
@@ -357,9 +357,7 @@ footer{
 
     html{
         background-image: url(../images/binary-code-abstract-lu.jpg);
-    
     }
-    
     
     .body{
          width: 100%;
@@ -370,11 +368,11 @@ footer{
         margin-top: 0;
         background-image: url(../images/binary-code-abstract-lu.jpg);
     }
-       
-    
+
+    /* Header Nav Bar */
+
     .header-desktop{
-    
-       display: flex;
+        display: flex;
         justify-content: space-between;
         min-width: 100%;
         margin-top: 0em;
@@ -390,22 +388,18 @@ footer{
         font-family: 'Roboto', sans-serif;
         font-size: 2em;
     }
-       
-    
     .nav-desktop{
         padding:2em;
         margin-right: 4em;
-       
     }
+
     .nav-links-desktop{
         display: flex;
-        
     }
        
     .nav-links-desktop li{
-        
         list-style: none;
-        margin-right:3em;
+        margin-right:2em;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5em;
     }
@@ -418,36 +412,22 @@ footer{
     li a:hover{
         color: #88fff9;
     }
-    
-    .wrapper-desktop-index{
-        margin: 1.5em 9em;
-        background: #181818;
-        height: 25em;
-       
-    }
-    
-    .portfolio-desktop{
-        color:#4aaaa5;
-        font-size: 3em;
-        text-align: center;
-        background: #181818;
-        width: 100%;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 2em;
-        margin-bottom: 1.5em;
-        border-bottom: 0.01em solid  #050505;
-        padding: 1em 0em;
-    }
-    
-    .wrapper-desktop-portfolio{
-        margin: 1.5em 9em;
-        background: #181818;
 
+    /* Index Wrapper */
+
+    .wrapper-desktop-index{
+        margin: 1.5em 10em;
+        background: #181818;
+        height: 33em;
+        margin-bottom: 15em;
     }
-    
+
+    h2{
+        font-size: 2em;
+    }
+
     .column-desktop img{
         width: 15%;
-       
         margin-left:2em;
         margin-right: 1.5em;
         margin-bottom: 0.8em;
@@ -461,23 +441,68 @@ footer{
     
     .column-text-desktop-1 {
         font-size: 110%;
-        
         width: 100%;
-        
     }
     
     p{
         font-family: 'Roboto', sans-serif;
         color:#979797;
-     
         max-width: 100%;
         margin:0 1em;
     }
 
-    .wrapper-desktop-form{
-        margin: 1.5em 9em;
+    .line-main{
+        width: auto;
+        height: 0.5px;
+        color: black;
+        background: black;
+    }
+
+    .icon-github{
+        width: 2.5em;
+        float: right;
+        margin: 1em 0.8em;
+    }
+
+    .icon-mail{
+        width: 2.5em;
+        float: right;
+        margin: 1em 0em;
+    }
+
+    .icon-linkedin{
+        width: 1.9em;
+        margin: 1em 1em;
+        float: right;
+    }
+
+    /* Contact */
+   
+   
+    .wrapper-desktop-portfolio{
+        margin: 10em 10em;
         background: #181818;
-        
+        height: 112em;
+    }
+
+    .portfolio-desktop{
+        color:#4aaaa5;
+        font-size: 2em;
+        text-align: center;
+        background: #181818;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+        border-bottom: 0.01em solid  #050505;
+        padding: 1em 0em;
+    }
+
+    .wrapper-desktop-form{
+        margin: 1.5em 10em;
+        background: #181818;
+        height: 53em;
+        margin-bottom: 10em;
     }
     
     input[type=text] {
@@ -488,15 +513,16 @@ footer{
         margin-bottom: 1.5em; 
         border: none;
     }
+
     .form-main-desktop{
-        padding: 1em 7em;
-       
-        
-       
+        padding: 1em 12em;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
+
     textarea{
         width: 100%;
-        height: 8em;
+        height: 12em;
         padding: 12px 20px;
         box-sizing: border-box;
         background-color: #686868;
@@ -504,148 +530,136 @@ footer{
         resize: none;
         margin-bottom:2em ;
     }
+
     label{
         display: block; 
-        padding-bottom: 0.7em;
+        padding-bottom: 0.5em;
         color: #4aaaa5;
         font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
     }
+
     ::placeholder {
         color: rgb(19, 19, 19);
         font-family: 'Roboto', sans-serif;
-      }
-    
-    .submit-button-desktop  {
-        width: 50%;
-        display: block;
-        margin: auto;
-        background-color: #4aaaa5;
-        color: black;
-        padding: 1em 1em;
-        font-family: 'Roboto', sans-serif;
-        border: none;
-        cursor: pointer;
-      }
-    .submit-button-desktop:hover{
-        background-color: #2e837f;
-        cursor: pointer;
-    
-      }
-    
-    
+    }
+
     .input-form-desktop{
         width: 100%;
         margin-right: 2em;
     }
-
     
-    .resume-desktop{
-        color: #4aaaa5;
-        text-align: right;
-        padding: 1em;
-        font-family: 'Roboto', sans-serif;
-        /* font-size: 100%; */
+    .submit-button-desktop  {
+        width: 50%;
+        display: block;
         margin-bottom: 3em;
-        margin-right: 4em;
-       
-        
-        
-    }
-    .resume-desktop a{
-        text-decoration: none;
-        color: #4aaaa5;
-        font-size: 120%;
-        background: #080808;
-        padding: 0.5em;
-        border-radius: 3px;
+        background-color: #4aaaa5;
+        color: black;
+        padding: 1em 1em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        border: none;
+        cursor: pointer;
     }
 
-    .resume-desktop a:hover{
-        text-decoration: none;
-        color: #3bc0b9;
-        font-size: 140%;
+    .submit-button-desktop:hover{
+        background-color: #2e837f;
+        cursor: pointer;
     }
-    
-    .github-desktop{
-        width: 15%;
-         display: block; 
-         margin-left: 5em; 
-         
-    }
-    .linkedin-desktop{
-        width: 30%;
-        margin-bottom: 2em; 
-    
-    }
-    
-    .links-desktop{
+
+    .icon-linkedin-contact{
+        width: 2.4em;
         float: right;
-        
+        margin-top: 2em ;
+        margin-right: 1.5em;
     }
-    
-    
-    
-    .column-text-portfolio-desktop-1{
-        font-size: 150%;
-        
-       
+
+    .icon-github-contact{
+        width: 3em;
+        float: right;
+        margin: 2em 1em;
     }
-    
-    .desktop-1{
-        width: 20%;
-     
-        margin-left:3em;
-        margin-right: 2em;
-        margin-bottom: 0.8em;
+    .resume-desktop{
+        font-family: 'Roboto', sans-serif;
         float: left;
+    }
+
+    .resume-desktop a{
+        font-size: 120%;
+    }
+
+    #projects{
+        margin-top: 3em;
+    }
+
+    .column-text-portfolio-desktop-1{
+        font-size: 120%;
+        text-align: center;
+        margin-bottom: 3em;
+        float: left;
+    }
+
+    .desktop-1{
+        width: 39%;
+        height: 75%;
+        margin-left:4em;
+        margin-right: 3.5em;
+        margin-bottom: 0.8em;
         cursor: pointer;
     } 
+
     
-    .desktop-1 a:hover {
-        cursor: pointer;
-        
-        
+    .column-text-portfolio-desktop-2{
+        font-size: 120%;
+        text-align: center;
+        margin-bottom: 20em;
     }
-    
+
     .desktop-2{
-        width: 20%;
-        
-        margin-left:3em;
+        width: 37%;
+        height: 75%;
+        margin-left:4em;
         margin-right: 2em;
         margin-bottom: 0.8em;
-        float: left;
         cursor: pointer;
     }
-    .column-text-portfolio-desktop-2{
-        font-size: 150%;
+
+    .column-text-portfolio-desktop-3{
+        font-size: 120%;
+        text-align: center;
+        margin-bottom: 0.2em;
     }
 
     .desktop-3{
-        width: 20%;
-        margin-left:3em;
+        width: 37%;
+        height: 75%;
+        margin-left:4em;
         margin-right: 2em;
-        /* margin-bottom: 0.8em; */
-        float: left;
+        margin-bottom: 0.5em; 
         cursor: pointer;
-
     }
-    .column-text-portfolio-desktop-3{
-        font-size: 150%;
+
+    .column-text-portfolio-desktop-4{
+        font-size: 120%;
+        text-align: center;
+        margin-bottom: 1em;
     }
 
     .desktop-4{
-        width: 20%;
-        margin-left:3em;
+        width: 37%;
+        height: 75%;
+        margin-left:4em;
         margin-right: 2em;
         margin-bottom: 0.8em;
-        float: left;
         cursor: pointer;
+    }
+ 
+    .icon-github-portfolio{
+        width: 4em;
+    }
 
-    }
-    .column-text-portfolio-desktop-4{
-        font-size: 150%;
-    }
-    
+    /* Footer */
+     
     .footer-desktop{
         background: #181818;
         border-top: 0.5em solid #4aaaa5;
