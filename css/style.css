@@ -1,7 +1,7 @@
 
 
 /* Mobile version */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 479px) {
 
 *{
     margin: 0;
@@ -47,26 +47,33 @@ h1{
 }
 
 .nav{
-    padding:1em;
+    overflow: hidden;
+    position: relative;
+  
 }
 
-.nav-links{
-    display: flex;
+.nav .nav-links{
+    display: none;
 }
    
-.nav-links li{
-    list-style: none;
-    margin-right:0.7em;
-    font-family: 'Roboto', sans-serif;
-}
-   
+
 .nav-links a{
     text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block;
     color: #4aaaa5;
 }
-
-li a:hover{
+.nav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.nav a:hover{
     color: #88fff9;
+    background-color: #ddd;
 }
 
 .wrapper{
@@ -334,6 +341,380 @@ footer{
     color: #979797;
     padding: 0.8em; 
 }  
+
+}
+
+
+/* Tablet  Version */
+@media (min-width: 479px) and (max-width: 599px) {
+    *{
+        margin:0 ;
+        padding: 0;
+    }
+
+    html{
+        background-image: url(../images/binary-code-abstract-lu.jpg);
+    }
+    
+    .body{
+         width: 100%;
+    }
+    
+    .container-tablet{
+        width: 100%;
+        margin-top: 0;
+        background-image: url(../images/binary-code-abstract-lu.jpg);
+    }
+
+    /* Header Nav Bar */
+
+    .header-tablet{
+        display: flex;
+        justify-content: space-between;
+        min-width: 100%;
+        margin-top: 0em;
+        background: #181818;
+        border-bottom: 0.1em solid  #050505;
+    }
+    
+    .logo-tablet{
+        color:#4aaaa5;
+        padding: 1em;
+        float: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+    }
+
+    .nav-tablet{
+        margin-right: 0.5em;
+        margin-top: 1.7em;
+    }
+
+    .nav-links-tablet{
+        display: flex;
+    }
+       
+    .nav-links-tablet li{
+        list-style: none;
+        margin-right:1em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2em;
+    }
+       
+    .nav-links-tablet a{
+        text-decoration: none;
+        color: #4aaaa5;
+    }
+    
+    li a:hover{
+        color: #88fff9;
+    }
+
+    /* Index Wrapper */
+
+    .wrapper-tablet-index{
+        margin: 1.5em 3em;
+        background: #181818;
+        height: 41em;
+        margin-bottom: 15em;
+    }
+
+    h2{
+        font-size: 2em;
+        color:#4aaaa5;
+        text-align: center;
+        background: #181818;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 2em;
+        border-bottom: 0.01em solid  #050505;
+        padding: 1em 0em;
+    }
+
+    .column-tablet img{
+        width: 25%;
+        margin-left:2em;
+        margin-right: 1.5em;
+        margin-bottom: 0.8em;
+        margin-top: 3.5em;
+        float: left;
+    }
+    .column-text-tablet {
+        font-size: 100%;
+        width: 100%;
+        margin-top: 3em;
+    }
+    
+    p{
+        font-family: 'Roboto', sans-serif;
+        color:#979797;
+        max-width: 100%;
+        margin:0 1em;
+    }
+
+    .line-main{
+        width: auto;
+        height: 0.5px;
+        color: black;
+        background: black;
+    }
+
+    .icon-github{
+        width: 2.5em;
+        float: right;
+        margin: 1em 0.8em;
+    }
+
+    .icon-mail{
+        width: 2.4em;
+        float: right;
+        margin: 1em 0em;
+    }
+
+    .icon-linkedin{
+        width: 1.8em;
+        margin: 1em 1em;
+        float: right;
+    }
+
+    .resume-desktop{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        float: left;
+        margin: 0.5em;
+        text-decoration: none;
+    }
+
+    .resume-desktop a{
+        margin: 1em;
+        color: #4aaaa5;
+        text-decoration: none;
+    }
+
+    .resume-desktop a:hover{
+        margin: 1em;
+        color: #88fff9;
+        text-decoration: none;
+    }
+
+    /* Portfolio */
+   
+   
+    .wrapper-desktop-portfolio{
+        
+        margin: 1.5em 3em;
+        background: #181818;
+        height: 68em;
+        margin-bottom: 10em;
+        
+    }
+
+    .portfolio-tablet{
+        color:#4aaaa5;
+        font-size: 2em;
+        text-align: center;
+        background: #181818;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1.5em;
+        border-bottom: 0.01em solid  #050505;
+        padding: 1em 0em;
+    }
+
+
+    .portfolio-images-tablet-1 {
+        cursor: pointer;
+        width: 50%;
+        margin-left: 1em;
+        margin-bottom: 2em;
+    }
+ 
+    .icon-github-portfolio{
+        width: 3em;
+    } 
+
+    .about-project-1-tablet{
+        float: right;
+    }
+
+     .about-project-1-tablet p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1em;
+        margin: 1.5em 1.5em;
+         
+    }  
+    
+    .portfolio-images-tablet-2 {
+        cursor: pointer;
+        width: 50%;
+        margin-left: 1em;
+        margin-bottom: 2em;
+    }
+
+    .about-project-2-tablet{
+        float: right;
+    }
+
+    
+    .about-project-2-tablet p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1em;
+        margin: 2em 1em;
+         
+    }  
+    .portfolio-images-tablet-3 {
+        cursor: pointer;
+        width: 50%;
+        margin-left: 1em;
+        margin-bottom: 2em;
+    }
+
+    .about-project-3-tablet{
+        float: right;
+    }
+
+    
+    .about-project-3-tablet p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1em;
+        margin: 2.5em 1em;
+    }  
+
+    .portfolio-images-tablet-4 {
+        cursor: pointer;
+        width: 50%;
+        margin-left: 1em;
+        margin-bottom: 2em;
+    }
+
+    .about-project-4-tablet{
+        float: right;
+        
+    }
+
+    
+    .about-project-4-tablet p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1em;
+        margin: 2.5em 1.5em;
+    }  
+   
+
+
+    /* Contact */
+    .wrapper-desktop-form{
+        margin: 1.5em 10em;
+        background: #181818;
+        height: 50em;
+        margin-bottom: 10em;
+    }
+    
+    input[type=text] {
+        background: #979797;
+        color:black;
+        padding: 0.7em;
+        box-sizing: border-box;
+        margin-bottom: 1.5em; 
+        border: none;
+    }
+
+    .form-main-desktop{
+        padding: 1em 12em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    textarea{
+        width: 100%;
+        height: 12em;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        background-color: #979797;
+        font-size: 16px;
+        resize: none;
+        margin-bottom:2em ;
+    }
+
+    label{
+        display: block; 
+        padding-bottom: 0.5em;
+        color: #4aaaa5;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+    }
+
+    ::placeholder {
+        color: rgb(19, 19, 19);
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .input-form-desktop{
+        width: 100%;
+        margin-right: 2em;
+    }
+    
+    .submit-button-desktop  {
+        width: 50%;
+        display: block;
+        margin: 1em auto;
+        background-color: #4aaaa5;
+        color: black;
+        padding: 1em 1em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        border: none;
+        cursor: pointer;
+    }
+
+    .submit-button-desktop:hover{
+        background-color: #2e837f;
+        cursor: pointer;
+    }
+
+    .icon-linkedin-contact{
+        width: 2em;
+        float: right;
+        margin: 1.1em 0.8em;
+    }
+
+    .icon-github-contact{
+        width: 2.5em;
+        float: right;
+        margin: 1.1em 0.5em;
+    }
+   
+
+    
+
+    /* Footer */
+     
+    .footer-desktop{
+        background: #181818;
+        border-top: 0.5em solid #4aaaa5;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 5%;
+    }
+    
+    .p-footer-desktop{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 0.7em;
+        color: #979797;
+        padding: 0.8em; 
+    }  
+   
+
 
 }
 
@@ -615,7 +996,7 @@ footer{
     }
     
     input[type=text] {
-        background: #686868;
+        background: #979797;
         color:black;
         padding: 0.7em;
         box-sizing: border-box;
@@ -634,7 +1015,7 @@ footer{
         height: 12em;
         padding: 12px 20px;
         box-sizing: border-box;
-        background-color: #686868;
+        background-color: #979797;
         font-size: 16px;
         resize: none;
         margin-bottom:2em ;
