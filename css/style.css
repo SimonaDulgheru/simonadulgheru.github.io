@@ -25,17 +25,51 @@ html{
    
 
 .header{
-   display: flex;
+    display: flex;
     justify-content: space-between;
-    min-width: 100%;
+    width: 100%;
     margin-top: 0em;
+    margin-right: 0em; 
     background: #181818;
     border-bottom: 0.1em solid  #050505;
 }
 
+
 .logo{
     color:#4aaaa5;
     padding: 1em;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.nav{
+    margin-top: 1.7em;
+    margin-left: 10%;
+    display: flex;
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+}
+   
+.nav-links li{
+    list-style: none;
+    margin-right:5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+   
+.nav-links a{
+    text-decoration: none;
+    color: #4aaaa5;
+}
+
+li a:hover{
+    color: #88fff9;
 }
    
 h1{
@@ -46,35 +80,6 @@ h1{
     font-size: 1em;
 }
 
-.nav{
-    overflow: hidden;
-    position: relative;
-  
-}
-
-.nav .nav-links{
-    display: none;
-}
-   
-
-.nav-links a{
-    text-decoration: none;
-    padding: 14px 16px;
-    font-size: 17px;
-    display: block;
-    color: #4aaaa5;
-}
-.nav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-.nav a:hover{
-    color: #88fff9;
-    background-color: #ddd;
-}
 
 .wrapper{
     margin: 1.5em;
@@ -103,11 +108,8 @@ h2{
 .column-img img{
     width: 40%;
     height: 30%;
-    margin-left:1em;
-    margin-right: 1.5em;
-    margin-bottom: 0.8em;
+    margin: 5%;
     align-self: center;
-    /* float: left; */
 }
 
 .column {
@@ -124,33 +126,29 @@ p{
     color:#979797;
     max-width: 100%;
     margin:0 1em;
-}
-.line-main-mobile{
-    margin: 0.5em auto;
-    background: black;
-    border: 0.1px solid black;
-    height: 0.2px;
+    text-align: justify;
 }
 
-.icon-github-mobile{
-    width: 1.5em;
+.icon-github{
+    width: 8%;
     float: right;
-    margin: 0.3em;
-    
+    margin: 2%;
 }
 
-.icon-mail-mobile{
-    width: 1.4em;
+.icon-mail{
+    width: 8%;
     float: right;
-    margin: 0.3em;
+    margin: 1%;
 }
 
-.icon-linkedin-mobile{
-    width: 1.1em;
+.icon-linkedin{
+    width: 8%;
     float: right;
-    margin: 0.3em;
+    margin: 2%;
 }
 
+
+/* Contact */
 input[type=text] {
     background: #686868;
     color:black;
@@ -233,7 +231,7 @@ font-size: 140%;
 
 
 
-.github{
+/* .github{
     width: 30%;
     display: block;
     margin-left: 2em;
@@ -243,7 +241,7 @@ font-size: 140%;
     width: 75%;
     margin-right: 2em;
     margin-bottom: 2em;
-}
+} */
 
 .links{
     display: flex;
@@ -251,7 +249,11 @@ font-size: 140%;
     margin: 0 6em;
 }
 
-.column-text-portfolio-1{
+.icon-github-portfolio{
+    width: 15%;
+}
+
+.column-portfolio-1{
     font-size: 70%;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -324,6 +326,25 @@ font-size: 140%;
     cursor: pointer;
 }
 
+
+.icon-github{
+    width: 8%;
+    float: right;
+    margin: 1em 0.8em;
+}
+
+.icon-mail{
+    width: 8%;
+    float: right;
+    margin: 1em 0em;
+}
+
+.icon-linkedin{
+    width: 6%;
+    margin: 1em 1em;
+    float: right;
+}
+
 footer{
     background: #181818;
     border-top: 0.5em solid #4aaaa5;
@@ -371,8 +392,9 @@ footer{
     .header-tablet{
         display: flex;
         justify-content: space-between;
-        min-width: 100%;
-        margin-top: 0em;
+        width: 100%;
+        margin-top: 0;
+        margin-right: 0;
         background: #181818;
         border-bottom: 0.1em solid  #050505;
     }
@@ -383,11 +405,16 @@ footer{
         float: left;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5em;
+        text-align: center;
     }
 
     .nav-tablet{
-        margin-right: 0.5em;
+        margin-right: 5%;
         margin-top: 1.7em;
+        margin-left: 25%;
+       
+        display: flex;
+        min-width: 100%;
     }
 
     .nav-links-tablet{
@@ -396,7 +423,7 @@ footer{
        
     .nav-links-tablet li{
         list-style: none;
-        margin-right:1em;
+        margin-right:5%;
         font-family: 'Roboto', sans-serif;
         font-size: 1.2em;
     }
@@ -413,7 +440,7 @@ footer{
     /* Index Wrapper */
 
     .wrapper-tablet-index{
-        margin: 1.5em 3em;
+        margin: 5%;
         background: #181818;
         height: 41em;
         margin-bottom: 15em;
@@ -438,11 +465,13 @@ footer{
         margin-bottom: 0.8em;
         margin-top: 3.5em;
         float: left;
+        
     }
     .column-text-tablet {
         font-size: 100%;
         width: 100%;
         margin-top: 3em;
+        border-bottom: 0.01em solid  #050505;
     }
     
     p{
@@ -452,27 +481,21 @@ footer{
         margin:0 1em;
     }
 
-    .line-main{
-        width: auto;
-        height: 0.5px;
-        color: black;
-        background: black;
-    }
 
     .icon-github{
-        width: 2.5em;
+        width: 8%;
         float: right;
         margin: 1em 0.8em;
     }
 
     .icon-mail{
-        width: 2.4em;
+        width: 8%;
         float: right;
         margin: 1em 0em;
     }
 
     .icon-linkedin{
-        width: 1.8em;
+        width: 6%;
         margin: 1em 1em;
         float: right;
     }
@@ -500,11 +523,11 @@ footer{
     /* Portfolio */
    
    
-    .wrapper-desktop-portfolio{
+    .wrapper-tablet-portfolio{
         
-        margin: 1.5em 3em;
+        margin: 5%;
         background: #181818;
-        height: 68em;
+        height: 65em;
         margin-bottom: 10em;
         
     }
@@ -520,21 +543,27 @@ footer{
         border-bottom: 0.01em solid  #050505;
         padding: 1em 0em;
     }
+    .column-portfolio-tablet{
+        min-width: 100%;
+        display: flex;
+        border-bottom: 0.01em solid  #050505;
+       
+    }
 
-
-    .portfolio-images-tablet-1 {
+    .portfolio-images-tablet{
         cursor: pointer;
-        width: 50%;
+        width: 70%;
         margin-left: 1em;
-        margin-bottom: 2em;
+        /* margin-bottom: 2em; */ 
     }
  
     .icon-github-portfolio{
-        width: 3em;
+        width: 20%;
     } 
 
     .about-project-1-tablet{
         float: right;
+        
     }
 
      .about-project-1-tablet p {
@@ -542,16 +571,18 @@ footer{
         flex-direction: column;
         text-align: center;
         font-size: 1em;
-        margin: 1.5em 1.5em;
+        /* width: 50%; */
+         margin: 1.5em 1.5em; 
+        
          
     }  
     
-    .portfolio-images-tablet-2 {
+    /* .portfolio-images-tablet-2 {
         cursor: pointer;
-        width: 50%;
+        width: 70%;
         margin-left: 1em;
         margin-bottom: 2em;
-    }
+    } */
 
     .about-project-2-tablet{
         float: right;
@@ -566,12 +597,12 @@ footer{
         margin: 2em 1em;
          
     }  
-    .portfolio-images-tablet-3 {
+    /* .portfolio-images-tablet-3 {
         cursor: pointer;
         width: 50%;
         margin-left: 1em;
         margin-bottom: 2em;
-    }
+    } */
 
     .about-project-3-tablet{
         float: right;
@@ -586,12 +617,12 @@ footer{
         margin: 2.5em 1em;
     }  
 
-    .portfolio-images-tablet-4 {
+    /* .portfolio-images-tablet-4 {
         cursor: pointer;
         width: 50%;
         margin-left: 1em;
         margin-bottom: 2em;
-    }
+    } */
 
     .about-project-4-tablet{
         float: right;
@@ -610,13 +641,14 @@ footer{
 
 
     /* Contact */
-    .wrapper-desktop-form{
-        margin: 1.5em 10em;
+    .wrapper-tablet-form{
+        margin: 5%;
         background: #181818;
         height: 50em;
         margin-bottom: 10em;
+        
     }
-    
+/*     
     input[type=text] {
         background: #979797;
         color:black;
@@ -624,12 +656,23 @@ footer{
         box-sizing: border-box;
         margin-bottom: 1.5em; 
         border: none;
+        
+    } */
+    .input-form-tablet{
+        background: #979797;
+        color:black;
+        padding: 0.7em;
+        box-sizing: border-box;
+        margin-bottom: 1.5em; 
+        border: none;
+        min-width: 100%;
     }
 
-    .form-main-desktop{
-        padding: 1em 12em;
+    .form-main-tablet{
+        padding: 5%;
         margin-top: 2em;
-        margin-bottom: 2em;
+        border-bottom: 0.01em solid  #050505;
+        /* margin-bottom: 2em; */
     }
 
     textarea{
@@ -655,13 +698,13 @@ footer{
         color: rgb(19, 19, 19);
         font-family: 'Roboto', sans-serif;
     }
-
-    .input-form-desktop{
+/* 
+    .input-form-tablet{
         width: 100%;
-        margin-right: 2em;
-    }
+       
+    } */
     
-    .submit-button-desktop  {
+    .submit-button-tablet {
         width: 50%;
         display: block;
         margin: 1em auto;
@@ -674,11 +717,11 @@ footer{
         cursor: pointer;
     }
 
-    .submit-button-desktop:hover{
+    .submit-button-tablet:hover{
         background-color: #2e837f;
         cursor: pointer;
     }
-
+/* 
     .icon-linkedin-contact{
         width: 2em;
         float: right;
@@ -690,13 +733,13 @@ footer{
         float: right;
         margin: 1.1em 0.5em;
     }
-   
+    */
 
     
 
     /* Footer */
      
-    .footer-desktop{
+    .footer{
         background: #181818;
         border-top: 0.5em solid #4aaaa5;
         position: fixed;
@@ -706,12 +749,13 @@ footer{
         height: 5%;
     }
     
-    .p-footer-desktop{
+    .paragraph-footer{
         font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 0.7em;
         color: #979797;
         padding: 0.8em; 
+        margin: auto;
     }  
    
 
@@ -820,6 +864,7 @@ footer{
         font-size: 110%;
         width: 100%;
         margin-top: 3em;
+        border-bottom: 0.01em solid  #050505;
     }
     
     p{
@@ -849,7 +894,7 @@ footer{
     }
 
     .icon-linkedin{
-        width: 1.8em;
+        width: 1.9em;
         margin: 1em 1em;
         float: right;
     }
@@ -878,7 +923,6 @@ footer{
    
    
     .wrapper-desktop-portfolio{
-        
         margin: 1.5em 10em;
         background: #181818;
         height: 107em;
@@ -897,7 +941,9 @@ footer{
         border-bottom: 0.01em solid  #050505;
         padding: 1em 0em;
     }
-
+    .column-portfolio-desktop {
+        border-bottom: 0.01em solid  #050505;
+    }
 
     .portfolio-images-desktop-1 {
         cursor: pointer;
@@ -919,7 +965,7 @@ footer{
         flex-direction: column;
         text-align: center;
         font-size: 1.5em;
-        margin: 3em 8em;
+        margin: 3em 9em;
          
     }  
     
@@ -983,6 +1029,7 @@ footer{
         flex-direction: column;
         text-align: center;
         font-size: 1.5em;
+        margin: 2em 4em;
     }  
    
 
@@ -1008,6 +1055,7 @@ footer{
         padding: 1em 12em;
         margin-top: 2em;
         margin-bottom: 2em;
+        border-bottom: 0.01em solid  #050505;
     }
 
     textarea{
@@ -1056,19 +1104,6 @@ footer{
         background-color: #2e837f;
         cursor: pointer;
     }
-
-    .icon-linkedin-contact{
-        width: 2em;
-        float: right;
-        margin: 1.1em 0.8em;
-    }
-
-    .icon-github-contact{
-        width: 2.5em;
-        float: right;
-        margin: 1.1em 0.5em;
-    }
-   
 
     
 
