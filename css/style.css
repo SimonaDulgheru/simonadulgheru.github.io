@@ -45,12 +45,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        
     }
+
     .line{
         width: 80%;
         height: 0.2em;
-        /* color: rgb(5, 5, 5); */
         background-color: #4aaaa5;
         transition: all 0.9s;
     }
@@ -78,6 +77,7 @@
         justify-content: center;
         align-items: center;
         transition: right 0.6s cubic-bezier(1, 0, 0, 1);
+        opacity: 0.9;
     }
 
     .change {
@@ -86,12 +86,17 @@
          
     .nav-links{
         text-align: right;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+       
+        
     }
 
     .nav-item{
         list-style: none;
         margin: 2em 1em;
         text-align: center;
+        border-bottom: 0.03em solid  #4aaaa5;
     }
         
     .link{
@@ -148,10 +153,10 @@
         text-transform: uppercase;
     }
 
-    .wrapper{
+    .wrapper-index{
         margin: 1.5em;
         background: #181818;
-        height: auto;
+        margin-bottom: 5em;
     }
 
     h2{
@@ -159,7 +164,6 @@
         text-align: center;
         background: #181818;
         font-size: 1.2em;
-        /* width: 100%; */
         font-family: 'Roboto', sans-serif;
         margin-top: 2em;
         margin-bottom: 1.5em;
@@ -168,23 +172,13 @@
         text-transform: uppercase;
     }
 
-    .column-img img{
-        width: 40%;
-        height: 30%;
-        margin: 5%;
-        align-self: center;
-    }
-
-    .column {
-        max-width: 100%;
-        padding: 2em;  
-    }
-
-    .column text {
+    .column-text {
         width: 100%;
+        margin-bottom: 1em;
         border-bottom: 0.01em solid  #050505;
+        
     }
-
+   
     p{
         font-family: 'Roboto', sans-serif;
         color:#979797;
@@ -213,6 +207,12 @@
 
 
     /* Contact */
+
+    .wrapper-contact{
+        margin: 1.5em; 
+        background: #181818;
+        margin-bottom: 5em;
+    }
     input[type=text] {
         background: #686868;
         color:black;
@@ -225,7 +225,6 @@
     .form-main{
         padding: 0em 1em;
         border-bottom: 0.01em solid  #050505;
-        margin-bottom: 2em;
     }
 
     textarea{
@@ -254,10 +253,10 @@
     .submit-button  {
         width: 50%;
         display: block;
-        margin: auto;
+        margin: 1.2em  auto;
         background-color: #4aaaa5;
         color: black;
-        padding: 1em 1em;
+        padding: 1em;
         font-family: 'Roboto', sans-serif;
         border: none;
         cursor: pointer;
@@ -273,34 +272,13 @@
         margin-right: 2em;
     }
 
-    .resume{
-        color: #4aaaa5;
-        text-align: left;
-        padding: 1em;
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 1em;
-        margin-right: 2em;
-    }
-
-    h3 a{
-        text-decoration: none;
-        color: #4aaaa5;
-        padding: 0.5em;
-        border-radius: 3px;
-    }
-
-    h3 a:hover{
-        text-decoration: none;
-        color: #3bc0b9;
-        font-size: 140%;
-    }
+    
 
     /* PORTFOLIO */
 
     .wrapper-portfolio{
         margin: 1.5em; 
         background: #181818;
-        height: 40em;
         margin-bottom: 5em;
     }
 
@@ -315,7 +293,7 @@
     }
 
     .icon-github-portfolio{
-        width: 20%;
+        width: 25%;
     } 
 
     .about-project-mobile p {
@@ -333,30 +311,44 @@
         cursor: pointer;
     }
     
-    .icon-github-portfolio{
-        width: 15%;
-    }
-
     .portfolio-images a:hover {
         cursor: pointer;
     }
 
+   
+    .resume {
+        color: #4aaaa5;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: large;
+        font-weight: bolder;
+        padding: 1em ;
+        text-transform: uppercase;
+    }
+
+    .resume a{
+        text-decoration: none;
+        color: #4aaaa5;
+    }
+
+    .resume a:hover{
+        text-decoration: none;
+        color: #3bc0b9;
+    }
     .icon-github{
         width: 8%;
-        float: right;
+        margin-bottom: 4em;
         margin: 1em 0.8em;
     }
 
     .icon-mail{
         width: 8%;
-        float: right;
         margin: 1em 0em;
     }
 
     .icon-linkedin{
         width: 6%;
         margin: 1em 1em;
-        float: right;
     }
 
     footer{
@@ -536,7 +528,6 @@
 
     /* Portfolio */
    
-   
     .wrapper-tablet-portfolio{
         
         margin: 5%;
@@ -568,7 +559,6 @@
         cursor: pointer;
         width: 70%;
         margin-left: 1em;
-        /* margin-bottom: 2em; */ 
     }
  
     .icon-github-portfolio{
@@ -686,7 +676,7 @@
         padding: 5%;
         margin-top: 2em;
         border-bottom: 0.01em solid  #050505;
-        /* margin-bottom: 2em; */
+        
     }
 
     textarea{
@@ -712,11 +702,7 @@
         color: rgb(19, 19, 19);
         font-family: 'Roboto', sans-serif;
     }
-/* 
-    .input-form-tablet{
-        width: 100%;
-       
-    } */
+
     
     .submit-button-tablet {
         width: 50%;
@@ -735,21 +721,7 @@
         background-color: #2e837f;
         cursor: pointer;
     }
-/* 
-    .icon-linkedin-contact{
-        width: 2em;
-        float: right;
-        margin: 1.1em 0.8em;
-    }
 
-    .icon-github-contact{
-        width: 2.5em;
-        float: right;
-        margin: 1.1em 0.5em;
-    }
-    */
-
-    
 
     /* Footer */
      
@@ -860,7 +832,6 @@
         height: 33em;
         margin-bottom: 15em;
     }
-
     
     h2{
         font-size: 2em;
