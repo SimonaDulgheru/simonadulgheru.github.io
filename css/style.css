@@ -769,6 +769,7 @@
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
         font-size: 20px;
+        font-weight: bold;
     }
        
     .nav-links-desktop li a{
@@ -881,7 +882,7 @@
 
     .resume-desktop:hover::after {
         width: 100%;
-        transition: width .2s;
+        transition: width .3s;
     }
 
     .resume-desktop::after {
@@ -890,7 +891,7 @@
         width: 0px;
         height: 3px;
         background: #4aaaa5;
-        transition: width .2s;
+        transition: width .3s;
     }
 
     .resume-desktop a:hover{
