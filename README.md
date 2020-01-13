@@ -1,14 +1,14 @@
 # SimonaDulgheru.github.io
 
-My Portfolio, is a web site which consists of 3 pages: About Me, Contact and Portfolio.
-For now, it's only HTML and CSS.
 
-My Portfolio is also responsive on mobile devices, link below  
-SimonaDulgheru.github.io
+[Simona Dulgheru Resume.pdf](https://github.com/SimonaDulgheru/simonadulgheru.github.io/files/4053409/Simona.Dulgheru.Resume.pdf)
 
 
 
 
 
-Github Repo link below:
-https://simonadulgheru.github.io
+
+
+## [Live Preview](https://simonadulgheru.github.io)
+
+
