@@ -88,8 +88,6 @@
         text-align: right;
         font-family: 'Roboto', sans-serif;
         font-weight: bolder;
-       
-        
     }
 
     .nav-item{
@@ -176,7 +174,6 @@
         width: 100%;
         margin-bottom: 1em;
         border-bottom: 0.01em solid  #050505;
-        
     }
    
     p{
@@ -418,7 +415,6 @@
         margin-right: 5%;
         margin-top: 1.7em;
         margin-left: 25%;
-       
         display: flex;
         min-width: 100%;
     }
@@ -471,8 +467,8 @@
         margin-bottom: 0.8em;
         margin-top: 3.5em;
         float: left;
-        
     }
+
     .column-text-tablet {
         font-size: 100%;
         width: 100%;
@@ -534,7 +530,6 @@
         background: #181818;
         height: 65em;
         margin-bottom: 10em;
-        
     }
 
     .portfolio-tablet{
@@ -548,6 +543,7 @@
         border-bottom: 0.01em solid  #050505;
         padding: 1em 0em;
     }
+
     .column-portfolio-tablet{
         min-width: 100%;
         display: flex;
@@ -567,7 +563,6 @@
 
     .about-project-1-tablet{
         float: right;
-        
     }
 
      .about-project-1-tablet p {
@@ -575,19 +570,9 @@
         flex-direction: column;
         text-align: center;
         font-size: 1em;
-        /* width: 50%; */
-         margin: 1.5em 1.5em; 
-        
-         
+        margin: 1.5em 1.5em; 
     }  
     
-    /* .portfolio-images-tablet-2 {
-        cursor: pointer;
-        width: 70%;
-        margin-left: 1em;
-        margin-bottom: 2em;
-    } */
-
     .about-project-2-tablet{
         float: right;
     }
@@ -599,14 +584,7 @@
         text-align: center;
         font-size: 1em;
         margin: 2em 1em;
-         
-    }  
-    /* .portfolio-images-tablet-3 {
-        cursor: pointer;
-        width: 50%;
-        margin-left: 1em;
-        margin-bottom: 2em;
-    } */
+    } 
 
     .about-project-3-tablet{
         float: right;
@@ -621,16 +599,8 @@
         margin: 2.5em 1em;
     }  
 
-    /* .portfolio-images-tablet-4 {
-        cursor: pointer;
-        width: 50%;
-        margin-left: 1em;
-        margin-bottom: 2em;
-    } */
-
     .about-project-4-tablet{
         float: right;
-        
     }
 
     
@@ -652,16 +622,7 @@
         margin-bottom: 10em;
         
     }
-/*     
-    input[type=text] {
-        background: #979797;
-        color:black;
-        padding: 0.7em;
-        box-sizing: border-box;
-        margin-bottom: 1.5em; 
-        border: none;
-        
-    } */
+
     .input-form-tablet{
         background: #979797;
         color:black;
@@ -782,14 +743,7 @@
         background: #181818;
         border-bottom: 0.1em solid  #050505;
     }
-    /* .menu-toggle{
-        color: #fff;
-        float: right;
-        line-height: 50px;
-        font-size: 24px;
-        cursor: pointer;
-        display: none;
-    } */
+   
     .logo-desktop{
         color:#4aaaa5;
         padding: 1em;
@@ -822,6 +776,7 @@
         color: #4aaaa5;
     }
 
+
     .nav-item::after {
         content: '';
         display: block;
@@ -845,7 +800,6 @@
         height: 30em;
         margin-bottom: 15em;
         padding: 0 1em;
-        
     }
     
     h2{
@@ -872,19 +826,18 @@
     .column-text-desktop-1 {
         font-size: 110%;
         width: 100%;
-        margin-top: 3em;
+        margin-top:3em;
         border-bottom: 0.01em solid  #050505;
     }
-   
+    .about-paragraph-desktop p {
+        max-width: 100%;
+        margin:0 1em;
+        text-align: justify;
+    }
+
     p{
         font-family: 'Roboto', sans-serif;
         color:#979797;
-        max-width: 100%;
-        margin:0 1em;
-        /* border-right: 0.01em solid  #050505;
-        border-left:0.01em solid  #050505;  */
-        /* padding: 1em 4em; */
-        text-align: justify;
     }
 
     .line-main{
@@ -914,17 +867,16 @@
 
     .resume-desktop{
         font-family: 'Roboto', sans-serif;
-        font-size: 1.5em;
+        font-size: 1.3em;
         float: left;
         margin: 0.5em;
         text-decoration: none;
+        text-transform: uppercase;
     }
 
     .resume-desktop a{
-        /* margin: 1em; */
         color: #4aaaa5;
         text-decoration: none;
-        /* padding: 0 1em; */
     }
 
     .resume-desktop:hover::after {
@@ -949,7 +901,6 @@
 
 
     /* Portfolio */
-   
    
     .wrapper-desktop-portfolio{
         margin: 1.5em 10em;
@@ -992,7 +943,7 @@
         justify-content: flex-end;
     }
 
-     .about-project-1 p {
+    .about-project-1 p {
         display: flex;
         flex-direction: column;
         text-align: center;
