@@ -164,7 +164,6 @@
         font-size: 1.2em;
         font-family: 'Roboto', sans-serif;
         margin-top: 2em;
-        margin-bottom: 1.5em;
         border-bottom: 0.01em solid  #050505;
         padding: 1em 0em;
         text-transform: uppercase;
@@ -283,15 +282,13 @@
         min-width: 100%;
         display: flex;
         border-bottom: 0.01em solid  #050505;
+        padding: 1em 0;
     }
 
     .about-project-mobile{
-        float: right;
+        display: flex;
+        justify-content: flex-start;
     }
-
-    .icon-github-portfolio{
-        width: 25%;
-    } 
 
     .about-project-mobile p {
         display: flex;
@@ -300,11 +297,16 @@
         font-size: 0.5em;
     } 
 
+    .icon-github-portfolio{
+        width: 25%;
+    } 
+
+
     .portfolio-images{
         width: 60%;
         margin-left:1em;
-        margin-bottom: 0.8em;
-        float: left;
+        display: flex;
+        justify-content: flex-start;
         cursor: pointer;
     }
     
@@ -548,7 +550,6 @@
         min-width: 100%;
         display: flex;
         border-bottom: 0.01em solid  #050505;
-       
     }
 
     .portfolio-images-tablet{
@@ -576,7 +577,6 @@
     .about-project-2-tablet{
         float: right;
     }
-
     
     .about-project-2-tablet p {
         display: flex;
@@ -620,7 +620,6 @@
         background: #181818;
         height: 50em;
         margin-bottom: 10em;
-        
     }
 
     .input-form-tablet{
@@ -637,7 +636,6 @@
         padding: 5%;
         margin-top: 2em;
         border-bottom: 0.01em solid  #050505;
-        
     }
 
     textarea{
@@ -824,12 +822,14 @@
         margin-top: 3.5em;
         float: left;
     }
+
     .column-text-desktop-1 {
         font-size: 110%;
         width: 100%;
         margin-top:3em;
         border-bottom: 0.01em solid  #050505;
     }
+
     .about-paragraph-desktop p {
         max-width: 100%;
         margin:0 1em;
@@ -878,7 +878,6 @@
     .resume-desktop a{
         color: #4aaaa5;
         text-decoration: none;
-        
     }
 
     .resume-desktop:hover::after {
@@ -907,10 +906,9 @@
     .wrapper-desktop-portfolio{
         margin: 1.5em 10em;
         background: #181818;
-        height: 110em;
+        height: 132em;
         margin-bottom: 6em;
         padding: 0 1em;
-        
     }
 
     .portfolio-desktop{
@@ -922,98 +920,38 @@
         font-family: 'Roboto', sans-serif;
         margin-bottom: 1.5em;
         border-bottom: 0.01em solid  #050505;
-        padding: 1em 0em;
     }
+
     .column-portfolio-desktop {
         border-bottom: 0.01em solid  #050505;
         display: flex;
+        padding: 2em 0;
     }
 
-    .portfolio-images-desktop-1 {
+    .portfolio-images-desktop {
         cursor: pointer;
         width: 30em;
         margin-left: 3em;
-        margin-bottom: 2em;
     }
  
     .icon-github-portfolio{
         width: 3em;
     } 
 
-    .about-project-1{
+    .about-project-desktop{
         display: flex;
         justify-content: flex-end;
     }
 
-    .about-project-1 p {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 1.5em;
-        margin: 3em 9em;
-         
-    }  
-    
-    .portfolio-images-desktop-2 {
-        cursor: pointer;
-        width: 30em;
-        margin-left: 3em;
-        margin-bottom: 2em;
-    }
-
-    .about-project-2{
-        float: right;
-    }
-
-    
-    .about-project-2 p {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 1.5em;
-        margin: 4em 8em;
-         
-    }  
-    .portfolio-images-desktop-3 {
-        cursor: pointer;
-        width: 30em;
-        margin-left: 3em;
-        margin-bottom: 2em;
-    }
-
-    .about-project-3{
-        display: flex;
-    }
-
-    
-    .about-project-3 p {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-size: 1.5em;
-        margin: 3em 8em;
-    }  
-
-    .portfolio-images-desktop-4 {
-        cursor: pointer;
-        width: 30em;
-        margin-left: 3em;
-        margin-bottom: 2em;
-    }
-
-    .about-project-4{
-        display: flex;
-    }
-
-    
-    .about-project-4 p {
+    .about-project-desktop p {
         display: flex;
         flex-direction: column;
         text-align: center;
         font-size: 1.5em;
         margin: 2em 9em;
     }  
-   
+    
+
 
 
     /* Contact */
