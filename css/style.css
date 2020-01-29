@@ -12,7 +12,6 @@
         background-image: url(../images/binary-code-abstract-lu.jpg);
     }
 
-
     .body{
         width: 100%;
     }
@@ -23,7 +22,6 @@
         background-image: url(../images/binary-code-abstract-lu.jpg);
     }
     
-
     .header{
         display: flex;
         
@@ -39,7 +37,7 @@
         width: 35px;
         height: 30px;
         position: fixed;
-        top: 0.5em;
+        top: 0.7em;
         right: 2em;
         cursor: pointer;
         display: flex;
@@ -49,7 +47,7 @@
 
     .line{
         width: 80%;
-        height: 0.2em;
+        height: 0.1em;
         background-color: #4aaaa5;
         transition: all 0.9s;
     }
@@ -67,9 +65,9 @@
     }
 
     .nav{
-        width: 40%;
-        height: 40%;
-        background-color: #181818;
+        width: 30%;
+        height: 35%;
+        background-color: #1b1b1b;
         position: fixed;
         top: 0;
         right: -300px;
@@ -78,6 +76,8 @@
         align-items: center;
         transition: right 0.6s cubic-bezier(1, 0, 0, 1);
         opacity: 0.9;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-left: 1px solid rgb(0, 0, 0);
     }
 
     .change {
@@ -88,11 +88,12 @@
         text-align: right;
         font-family: 'Roboto', sans-serif;
         font-weight: bolder;
+        padding-top: 2em;
     }
 
     .nav-item{
         list-style: none;
-        margin: 2em 1em;
+        margin: 2.3em 0em;
         text-align: center;
         border-bottom: 0.03em solid  #4aaaa5;
     }
@@ -104,7 +105,6 @@
         font-weight: 200;
         text-transform: uppercase;
         position: relative;
-        padding: 3px 0;
     }
 
     .link::before,
@@ -123,6 +123,7 @@
         bottom: 0;
         transform-origin: right;
     }
+
     .link::before{
         top: 0;
         transform-origin: left;
@@ -151,6 +152,8 @@
         text-transform: uppercase;
     }
 
+    /* Index  */
+
     .wrapper-index{
         margin: 1.5em;
         background: #181818;
@@ -163,16 +166,28 @@
         background: #181818;
         font-size: 1.2em;
         font-family: 'Roboto', sans-serif;
-        margin-top: 2em;
         border-bottom: 0.01em solid  #050505;
         padding: 1em 0em;
         text-transform: uppercase;
     }
 
+    .skills-list {
+        padding-left: 2em;
+        padding-right: 0.6em;
+        text-align: justify;
+        margin-bottom: 1em;
+    }
+
+    .skills-list li {
+        font-family: 'Roboto', sans-serif;
+        color:#979797;
+        padding-top: 0.8em;
+    }
+
     .column-text {
         width: 100%;
-        margin-bottom: 1em;
         border-bottom: 0.01em solid  #050505;
+        margin-top: 1em;
     }
    
     p{
@@ -209,6 +224,7 @@
         background: #181818;
         margin-bottom: 5em;
     }
+
     input[type=text] {
         background: #686868;
         color:black;
@@ -219,7 +235,7 @@
     }
 
     .form-main{
-        padding: 0em 1em;
+        padding: 1em;
         border-bottom: 0.01em solid  #050505;
     }
 
@@ -268,7 +284,6 @@
         margin-right: 2em;
     }
 
-    
 
     /* PORTFOLIO */
 
@@ -288,6 +303,7 @@
     .about-project-mobile{
         display: flex;
         justify-content: flex-start;
+        padding: 0 1em;
     }
 
     .about-project-mobile p {
@@ -301,7 +317,6 @@
         width: 25%;
     } 
 
-
     .portfolio-images{
         width: 60%;
         margin-left:1em;
@@ -314,7 +329,6 @@
         cursor: pointer;
     }
 
-   
     .resume {
         color: #4aaaa5;
         text-decoration: none;
@@ -365,6 +379,7 @@
         text-align: center;
         font-size: 0.7em;
         color: #979797;
+        margin-top: 1em;
     }  
 
 }
@@ -703,8 +718,6 @@
         margin: auto;
     }  
    
-
-
 }
 
 /* Desktop Version */
@@ -775,7 +788,6 @@
         color: #4aaaa5;
     }
 
-
     .nav-item::after {
         content: '';
         display: block;
@@ -796,9 +808,9 @@
     .wrapper-desktop-index{
         margin: 1.5em 10em;
         background: #181818;
-        height: 32em;
+        height: 48em;
         margin-bottom: 15em;
-        padding: 0 1em;
+        padding: 0 2.5em;
     }
     
     h2{
@@ -814,14 +826,18 @@
         text-transform: uppercase;
     }
 
-    .column-desktop img{
-        width: 15%;
-        margin-left:2em;
-        margin-right: 1.5em;
-        margin-bottom: 0.8em;
-        margin-top: 3.5em;
-        float: left;
+    .skills-list {
+        padding-left: 2em;
+        text-align: justify;
+        margin-bottom: 1em;
     }
+
+    .skills-list li {
+        font-family: 'Roboto', sans-serif;
+        color:#979797;
+        padding-top: 0.8em;
+    }
+
 
     .column-text-desktop-1 {
         font-size: 110%;
@@ -832,7 +848,6 @@
 
     .about-paragraph-desktop p {
         max-width: 100%;
-        margin:0 1em;
         text-align: justify;
     }
 
@@ -899,14 +914,12 @@
         text-decoration: none;
     }
 
-
-
     /* Portfolio */
    
     .wrapper-desktop-portfolio{
         margin: 1.5em 10em;
         background: #181818;
-        height: 132em;
+        height: 180em;
         margin-bottom: 6em;
         padding: 0 1em;
     }
@@ -952,8 +965,6 @@
     }  
     
 
-
-
     /* Contact */
     .wrapper-desktop-form{
         margin: 1.5em 10em;
@@ -972,14 +983,14 @@
         border: none;
     }
 
-    .form-main-desktop{
+    .form-main-desktop {
         padding: 1em 12em;
         margin-top: 2em;
         margin-bottom: 2em;
         border-bottom: 0.01em solid  #050505;
     }
 
-    textarea{
+    textarea {
         width: 100%;
         height: 12em;
         padding: 12px 20px;
@@ -990,7 +1001,7 @@
         margin-bottom:2em ;
     }
 
-    label{
+    label {
         display: block; 
         padding-bottom: 0.5em;
         color: #4aaaa5;
@@ -1021,12 +1032,11 @@
         cursor: pointer;
     }
 
-    .submit-button-desktop:hover{
+    .submit-button-desktop:hover {
         background-color: #2e837f;
         cursor: pointer;
     }
 
-    
 
     /* Footer */
      
@@ -1045,8 +1055,9 @@
         text-align: center;
         font-size: 0.7em;
         color: #979797;
-        padding: 0.8em; 
+        margin: 1em 2em;
     }  
+
    
    
    
