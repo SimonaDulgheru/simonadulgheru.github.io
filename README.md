@@ -1,4 +1,7 @@
 ## Simona Dulgheru Web Developer
+
+### [My Portfolio](https://simonadulgheru.github.io/)
+
 ### ABOUT
 Full Stack Developer adept at building responsive Web Applications from Front to Back with medical background. Passionate about learning new technologies, bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user’s needs.
 
