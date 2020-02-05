@@ -1,30 +1,18 @@
-
-## Simona Dulgheru
-
-### [My Portfolio](https://simonadulgheru.github.io)
-
-
-### My Resume
-[Simona Dulgheru Resume.pdf](https://github.com/SimonaDulgheru/simonadulgheru.github.io/files/4161062/Simona.Dulgheru.Resume.pdf)
-
-
-
-
-## Simona Dulgheru (s.c.dulgheru@gmail.com) 
+## Laura Petre (laura.d.petre@gmail.com) - a.k.a. The Blogless Dev  
 
 [Projects](#projects) | [Skills](#skills) | [Education](#education) | [Experience](#experience) | [Languages](#languages) |  [Interests](#interests)
 
-Full Stack Developer adept at building responsive Web Applications from Front to Back with medical background. Passionate about learning new technologies, bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user’s needs. I wish to continue learning and grow in a creative and collaborative environment. 
+Enthusiastic and determined Junior Fullstack Developer with an interest in Javascript and a management and medical background. I have a fondness for logic, tinkering and visual design, and my new-found affinity for web development has allowed me to reconnect with these passions. I wish to continue learning and to grow in a creative and collaborative environment. 
 
 
-#### Solo projects: [Password Generator](https://simonadulgheru.github.io/Password-Generator/), [JS Roulette](https://github.com/YoyoCodes/Javascript-Roulette), [BankTechTest](https://github.com/YoyoCodes/Bank-Tech-Test)
+#### Solo projects/experiments: [Weather NOW](https://github.com/YoyoCodes/Weather-App), [JS Roulette](https://github.com/YoyoCodes/Javascript-Roulette), [BankTechTest](https://github.com/YoyoCodes/Bank-Tech-Test)
 
-## Solo Projects
+## Projects
 
 | Project Name        | Timeframe      | Summary                                                   | Technologies   | 
-| --------------------- |:--------- |:----------------------------------------------------------- | :------------- | :-------|
-| [Password Generator ](https://github.com/SimonaDulgheru/Password-Generator)    | 1 week | •	An application that generates a random password (between 8 and 128 characters) based on user-selected criteria. Users can choose a password formed from Special characters, Numeric characters and Lowercase / Uppercase characters.|Html CSS JavaScript  | 
-| [Student Lesson Register](https://github.com/SimonaDulgheru/Student-Lesson-Register)  | 1 week | A Lesson Planner application which allows the user to define a lesson, a teacher and also, records the attendance of students. |JavaScript Node.js          |
+| --------------------- |:--------- |:----------------------------------------------------------- | :------------- | 
+| [Lendit](https://github.com/YoyoCodes/Lendit)    | 2 weeks | Weeks 11-12 final group project - A social platform for lending/borrowing items |MERN stack (MongoDB, Express, React Node) | Jest, Enzyme, Mocha, Chai         |
+| [Thermostat](https://github.com/YoyoCodes/Thermostat)    | 1 week | Week 5 - A simple business logic for a thermostat hooked up to a dynamic visual interface using JQuery an an external API for weather predictions|JavaScript, JQuery, HTML, CSS | Jasmine         |
 | [Acebook](https://github.com/YoyoCodes/acebook-java-template)    | 2 weeks | Weeks 8-9 group project - Working with legacy code and learning an entirely new language and framework |Java, Spring-boot, Maven, Webpack, React, CSS | Junit         |
 | [Notes App](https://github.com/YoyoCodes/Notes-app)     | 1 week| Week 7 - Single page web app without using any libraries | Vanilla JavaScript | Vanilla JavaScript |
 | [The Posh Couch](https://github.com/YoyoCodes/makersbnb)    | 1 week | Week 6 group project - Fullstack AirBNB clone using JavaScript on the frontend and the Sinatra API |Ruby, Sinatra, Postgres, JavaScript, JQuery, HTML, CSS | Rspec         |
@@ -109,9 +97,6 @@ I'm a 'deep diver' who, when confronted with a new problem, pauses to carefully 
     </a>
 </p>
     
-
-
-
 
 
 
