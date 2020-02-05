@@ -1,14 +1,15 @@
-# SimonaDulgheru.github.io
+# Simona Dulgheru 
+
+## [See My Portfolio](https://simonadulgheru.github.io)
 
 
-https://github.com/SimonaDulgheru/simonadulgheru.github.io/files/4053409/Simona.Dulgheru.Resume.pdf
+## My Resume
+
+[Simona Dulgheru Resume.pdf](https://github.com/SimonaDulgheru/simonadulgheru.github.io/files/4161062/Simona.Dulgheru.Resume.pdf)
 
 
 
 
 
-
-
-### [Live Preview](https://simonadulgheru.github.io)
 
 
