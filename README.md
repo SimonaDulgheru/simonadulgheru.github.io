@@ -1,8 +1,8 @@
 ## Simona Dulgheru Web Developer
-## ABOUT
+### ABOUT
 Full Stack Developer adept at building responsive Web Applications from Front to Back with medical background. Passionate about learning new technologies, bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user’s needs.
 
-## EXPERIENCE - Full Stack Web DEveloper
+### EXPERIENCE - Full Stack Web DEveloper
 ## Solo Projects
 - [Password Generator ](https://github.com/SimonaDulgheru/Password-Generator)
 - [Student Lesson Register](https://github.com/SimonaDulgheru/Student-Lesson-Register)
@@ -15,7 +15,7 @@ Full Stack Developer adept at building responsive Web Applications from Front to
 - [Daily Planner ](https://github.com/SimonaDulgheru/Daily-Planner)
 - [Poll App  ](https://github.com/SimonaDulgheru/Poll-Project)
 
-## HARD SKILLS
+### HARD SKILLS
 - HTML                     
 - CSS
 - JavaScript
@@ -37,7 +37,7 @@ Full Stack Developer adept at building responsive Web Applications from Front to
 - Adobe Photoshop
 - Adobe Illustrator 
 
-## SOFT SKILLS
+### SOFT SKILLS
 - Adaptable
 - Willingness to learn
 - Time management
@@ -45,11 +45,10 @@ Full Stack Developer adept at building responsive Web Applications from Front to
 - Innovative
 - Communication
 
-## EXPERIENCE - Midwife
+### EXPERIENCE - Midwife
 - Spent 8 years as a successful Midwife working in the highest-pressure working environment there is. Now looking to turn my passion for coding into my purpose. 
 
-
-## EDUCATION
+### EDUCATION
 ### Full Stack Web Developer – Post Grad Coding Boot Camp
 University of Birmingham – September 2019 – March 2020
 ### Front End Boot Camp
