@@ -198,6 +198,11 @@
         text-align: justify;
     }
 
+    .contacts-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .icon-github{
         width: 8%;
         float: right;
@@ -305,9 +310,7 @@
         justify-content: flex-start;
         padding: 0 1em;
     }
-    /* .about-project-mobile:hover {
-        width: 50%;
-    } */
+   
 
     .about-project-mobile p {
         display: flex;
@@ -327,9 +330,6 @@
         justify-content: flex-start;
         cursor: pointer;
     }
-
-   
-   
 
     .resume {
         color: #4aaaa5;
@@ -759,11 +759,11 @@
    
     .logo-desktop{
         color:#4aaaa5;
-        padding: 1em;
+        padding: 1.2em;
         float: left;
-        margin-left: 4em;
+        margin-left: 5.5em;
         font-family: 'Roboto', sans-serif;
-        font-size: 2em;
+        font-size: 1.5em;
         text-transform: uppercase;
     }
 
@@ -811,11 +811,10 @@
     .wrapper-desktop-index{
         margin: 1.5em 10em;
         background: #181818;
-        height: 42em;
-        margin-bottom: 15em;
         padding: 0 2.5em;
+        margin-bottom: 7em;
     }
-    
+   
     h2{
         font-size: 2em;
         color:#4aaaa5;
@@ -865,29 +864,35 @@
         color: black;
         background: black;
     }
-
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .contact-links {
+        display: flex;
+    }
+    
     .icon-github{
         width: 2.5em;
-        float: right;
+        display: flex;
+        justify-content: flex-end;
         margin: 1em 0.8em;
     }
 
     .icon-mail{
         width: 2.4em;
-        float: right;
         margin: 1em 0em;
     }
 
     .icon-linkedin{
         width: 1.9em;
         margin: 1em 1em;
-        float: right;
     }
 
     .resume-desktop{
         font-family: 'Roboto', sans-serif;
         font-size: 1.3em;
-        float: left;
         margin: 0.5em;
         text-decoration: none;
         text-transform: uppercase;
@@ -923,7 +928,7 @@
         margin: 1.5em 10em;
         background: #181818;
         height: 208em;
-        margin-bottom: 6em;
+        margin-bottom: 7em;
         padding: 0 1em;
     }
 
@@ -955,7 +960,6 @@
         -webkit-transform: scale(1) rotateZ(-4deg);
         -o-transform: scale(1) rotateZ(-4deg);
     }
-    
  
     .icon-github-portfolio{
         width: 3em;
@@ -979,8 +983,7 @@
     .wrapper-desktop-form{
         margin: 1.5em 10em;
         background: #181818;
-        height: 50em;
-        margin-bottom: 10em;
+        margin-bottom: 7em;
         padding: 0 1em;
     }
     
