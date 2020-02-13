@@ -6,6 +6,7 @@
     *{
         margin: 0;
         padding: 0;
+        
     }
 
     html{
@@ -388,7 +389,7 @@
 
 
 /* Tablet  Version */
-@media (min-width: 479px) and (max-width: 599px) {
+@media (min-width: 479px) and (max-width: 600px) {
     *{
         margin:0 ;
         padding: 0;
@@ -725,11 +726,12 @@
 /* Desktop Version */
 
     
-   @media(min-width: 599px) {
+   @media(min-width: 600px) {
 
     *{
         margin:0 ;
         padding: 0;
+        
     }
 
     html{
@@ -927,9 +929,8 @@
     .wrapper-desktop-portfolio{
         margin: 1.5em 10em;
         background: #181818;
-        /* height: 208em; */
         margin-bottom: 7em;
-        padding: 0 1em;
+        padding: 0 2em;
     }
 
     .portfolio-desktop{
@@ -939,21 +940,22 @@
         background: #181818;
         width: 100%;
         font-family: 'Roboto', sans-serif;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
         border-bottom: 0.01em solid  #050505;
     }
 
     .column-portfolio-desktop {
         border-bottom: 0.01em solid  #050505;
         display: flex;
+        width: 100%;
         padding: 2em 0;
     }
 
     .portfolio-images-desktop {
         cursor: pointer;
         width: 30em;
-        margin-left: 3em;
     }
+
     img:hover {
         transform: scale(1) rotateZ(-4deg);
         -moz-transform: scale(1) rotateZ(-4deg);
@@ -969,21 +971,24 @@
         display: flex;
     }
  
-    .icon-github-portfolio{
-        width: 3em;
+    .icon-github-portfolio {
+        width: 4em;
     } 
 
-    .about-project-desktop{
-        display: flex;
-        justify-content: flex-end;
+    .about-project-desktop {
+        padding: 1em 5em;
+        text-align: center;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .about-project-desktop p {
         display: flex;
         flex-direction: column;
-        text-align: center;
         font-size: 1.5em;
-        margin: 2em 9em;
+       
     }  
     
 
