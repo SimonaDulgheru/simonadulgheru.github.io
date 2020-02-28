@@ -314,6 +314,12 @@
     }
    
 
+    .about-project-desktop .strong,
+    .about-project-desktop .stack-used
+    { 
+        font-size: 0.5em;
+    } 
+ 
     .about-project-mobile p {
         text-align: center;
         font-size: 0.5em;
@@ -321,7 +327,7 @@
     } 
 
     .icon-github-portfolio-mobile {
-        width: 25%;
+        width: 20%;
         display: flex;
         margin: 0 auto;
     } 
@@ -984,16 +990,21 @@
         flex: 1;
         justify-content: center;
         align-items: center;
-        
     }
-
+    
     .about-project-desktop p {
         display: flex;
         flex-direction: column;
-        font-size: 1.5em;
         padding-bottom: 1em;
     }  
-    
+
+    .about-project-desktop .strong,
+    .about-project-desktop .stack-used
+    { 
+        font-size: 1.5em;
+    } 
+ 
+
 
     /* Contact */
     .wrapper-desktop-form{
